@@ -1,0 +1,83 @@
+{
+  "tags": [
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "name": "Auto_Mode",
+      "tagType": "AtomicTag",
+      "value": false,
+      "valueSource": "memory"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "expression": "{[~]Pump_Comand}\u0026\u0026 !{[~]low_level}",
+      "name": "Pump_Running",
+      "tagType": "AtomicTag",
+      "value": true,
+      "valueSource": "expr"
+    },
+    {
+      "dataType": "Float4",
+      "defaultValue": 50.0,
+      "engUnit": "%",
+      "name": "Tank_Level",
+      "tagType": "AtomicTag",
+      "value": 86.0,
+      "valueSource": "memory"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "name": "Pump_Command",
+      "tagType": "AtomicTag",
+      "value": false,
+      "valueSource": "memory"
+    },
+    {
+      "dataType": "Boolean",
+      "expression": "{[~]Inlet_Valve_Command}\u0026\u0026!{[~]High_Level}",
+      "name": "Inlet_Valve_Running",
+      "tagType": "AtomicTag",
+      "valueSource": "expr"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "expression": "{[~]Tank_Level}\u003c\u003d20",
+      "name": "low_level",
+      "tagType": "AtomicTag",
+      "value": false,
+      "valueSource": "expr"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "name": "Inlet_Valve_Command",
+      "tagType": "AtomicTag",
+      "value": true,
+      "valueSource": "memory"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": false,
+      "expression": "{[~]Tank_Level}\u003e\u003d90",
+      "name": "High_Level",
+      "tagType": "AtomicTag",
+      "value": true,
+      "valueSource": "memory"
+    },
+    {
+      "dataType": "Boolean",
+      "defaultValue": true,
+      "name": "Auto_Fill_State",
+      "tagType": "AtomicTag",
+      "value": true,
+      "valueSource": "memory"
+    },
+    {
+      "name": "Alarm Metrics",
+      "tagType": "Unknown"
+    }
+  ]
+}
