@@ -36,7 +36,7 @@ No physical PLC or field devices are connected.
 
 ## Current HMI
 
-![Water tank HMI](docs/current_hmi.PNG)
+![Water tank HMI](docs/current_hmi.png)
 
 [View the process and electrical schematics (PDF)](docs/schematic/Water_Tank_Process_and_Electrical_Schematics.pdf)
 
