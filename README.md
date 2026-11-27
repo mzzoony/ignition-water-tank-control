@@ -26,3 +26,12 @@ No physical PLC, sensors, or actuators are connected.
 ## Requirements
 Ignition with the Perspective module.
 The simulation script runs inside Ignition.
+## Process and Electrical Schematics
+
+The drawings show the tank process and a proposed 24 V DC
+electrical circuit for the pump and inlet valve.
+
+The current project runs as a software simulation in Ignition.
+No physical PLC or field devices are connected.
+
+[View the process and electrical schematics (PDF)](docs/schematic/Water_Tank_Process_and_Electrical_Schematics.pdf)
