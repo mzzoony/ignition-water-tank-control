@@ -35,3 +35,11 @@ The current project runs as a software simulation in Ignition.
 No physical PLC or field devices are connected.
 
 [View the process and electrical schematics (PDF)](docs/schematic/Water_Tank_Process_and_Electrical_Schematics.pdf)
+
+## Video Demonstration
+
+Watch the walkthrough covering manual operation, automatic
+filling and draining, level interlocks, the HMI, and the
+Python/Jython simulation script.
+
+[Watch or download the demonstration](docs/tank-demo.mp4)
