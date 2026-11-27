@@ -34,6 +34,10 @@ electrical circuit for the pump and inlet valve.
 The current project runs as a software simulation in Ignition.
 No physical PLC or field devices are connected.
 
+## Current HMI
+
+![Water tank HMI](screenshots/current_hmi.png)
+
 [View the process and electrical schematics (PDF)](docs/schematic/Water_Tank_Process_and_Electrical_Schematics.pdf)
 
 ## Video Demonstration
